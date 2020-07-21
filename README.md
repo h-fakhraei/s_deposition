@@ -1,5 +1,5 @@
 # s_deposition
-Code for the kriging analysis and modelling of atmospheric S deposition
+Code for the kriging analysis and modelling of atmospheric S deposition (Hinckley_et_al_NGS_2020_kriging_code.R)
 
 Description ---------------------------------------------------------
 This repository includes the kriging model and input files used for E-L. S. Hinckley,
@@ -15,13 +15,13 @@ Here, we included these datasets until year 2017 but the user will be able to do
 perform kriging as the datasets are getting updated.
 
 Inputs ---------------------------------------------------------------
-NADP wet deposition data (http://nadp.slh.wisc.edu/ntn/)
-location of wet deposition sites (http://nadp.slh.wisc.edu/data/sites/NTN/?net=NTN)
-CASTNET dry deposition data (https://java.epa.gov/castnet/clearsession.do)
-location of dry deposition sites (https://www.epa.gov/castnet/castnet-site-locations)
-PRISM precipitation quantity (ftp://prism.oregonstate.edu/monthly/ppt/)
+NADP wet deposition data (http://nadp.slh.wisc.edu/ntn/) (sample csv file: NTN-All-cy.csv)
+location of wet deposition sites (http://nadp.slh.wisc.edu/data/sites/NTN/?net=NTN) (sample csv file: NTNsites.csv)
+CASTNET dry deposition data (https://java.epa.gov/castnet/clearsession.do) (sample csv file: Dry_Deposition_Annual_all_US_kgha_2017.csv)
+location of dry deposition sites (https://www.epa.gov/castnet/castnet-site-locations) (sample csv file: castnet_locations_entire_US.csv)
+PRISM precipitation quantity (ftp://prism.oregonstate.edu/monthly/ppt/) (sample files in two zipped folders: PRISM_2001_2017.zip and PRISM_1989_2000.zip)
 
 Outputs ---------------------------------------------------------------
 For each running year the code generates three GeoTiff maps including wet, dry and total S deposition for the entire US.
-as example output maps for years 1989 and 2017 are included here.
+as example output maps for years 1989 and 2017 are included here.(in output_maps.zip)
 
